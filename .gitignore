@@ -7,3 +7,7 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+.idea/
+desert-code-camp-mpg.iml
+src/frontend/node_modules/
+src/main/webapp/javascript/

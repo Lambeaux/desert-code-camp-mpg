@@ -1,0 +1,26 @@
+{
+  "name": "dcc-mpg-ui",
+  "version": "1.0.0",
+  "description": "React JSX components for building our UI.",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --port 8081 --content-base ../main/webapp/",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lambeaux",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "flexbox-react": "^4.0.0",
+    "material-ui": "^0.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-tap-event-plugin": "^1.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.2"
+  }
+}
