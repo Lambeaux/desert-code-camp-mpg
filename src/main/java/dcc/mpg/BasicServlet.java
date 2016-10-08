@@ -16,7 +16,11 @@ public class BasicServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         resp.setStatus(200);
-        resp.getWriter()
-                .print("I am a basic servlet");
+        resp.getOutputStream()
+                .print(String.format("I am a basic servlet%n"));
+        if (req.getPathInfo() != null) {
+            resp.getOutputStream()
+                    .print(req.getPathInfo());
+        }
     }
 }
